@@ -67,6 +67,8 @@ public class Principal extends AppCompatActivity {
 
     }
 
+    //Prueba de comentario para el commit
+
     public void ingresarFB(){
 
         Intent i = new Intent(this, PantallaUsuario.class);
