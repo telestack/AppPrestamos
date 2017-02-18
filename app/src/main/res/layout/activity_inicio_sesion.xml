@@ -11,6 +11,7 @@
     tools:context="com.example.antonio.appprestamos.InicioSesion">
 
     <LinearLayout
+        android:background="@drawable/bckg_inicio"
         android:orientation="vertical"
         android:gravity="center"
         android:layout_width="match_parent"
@@ -18,7 +19,7 @@
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true">
 
-        <EditText style="@style/button_text"
+        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
@@ -61,7 +62,7 @@
             android:layout_below="@+id/linearLayout">
 
             <Button style="@style/button_text"
-                android:background="@drawable/login_button"
+                android:background="@drawable/bckg_inicio"
                 android:textAllCaps="false"
                 android:text="Ingresar"
                 android:layout_width="wrap_content"
