@@ -52,30 +52,19 @@
             android:linksClickable="true"
             android:id="@+id/tv3" />
 
-        <LinearLayout
-            android:orientation="horizontal"
+        <Button style="@style/button_text"
+            android:background="@drawable/bckg_inicio"
+            android:textAllCaps="false"
+            android:text="Ingresar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:id="@+id/button"
+            android:layout_weight="0.03"
+            android:layout_gravity="center"
+            android:layout_below="@+id/linearLayout3"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="104dp"
-            android:layout_below="@+id/linearLayout">
-
-            <Button style="@style/button_text"
-                android:background="@drawable/bckg_inicio"
-                android:textAllCaps="false"
-                android:text="Ingresar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button"
-                android:layout_weight="1"
-                android:layout_gravity="center"
-                android:layout_below="@+id/linearLayout3"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="117dp"
-                android:onClick="ingresar" />
-
-        </LinearLayout>
+            android:layout_marginStart="117dp"
+            android:onClick="ingresar" />
 
     </LinearLayout>
 
