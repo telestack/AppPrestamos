@@ -7,7 +7,7 @@ import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 
 /**
- * Created by Antonio on 16/02/2017.
+ * Created by Antonio on 16/02/2017. xD
  */
 
 public class AppPrestamosApp extends Application {
